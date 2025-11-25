@@ -8,6 +8,6 @@ public interface AuthService {
 
     User verifyOtp(String email, String otp);
 
-
-
+    // New method
+    User register(User user);
 }
